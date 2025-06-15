@@ -52,3 +52,33 @@ button{
     font-weight:bold;
     
 }
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .input {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+
+  .row button {
+    flex: 1 1 22%;
+    margin: 2px;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  #heading {
+    font-size: 24px;
+    text-align: center;
+  }
+}
